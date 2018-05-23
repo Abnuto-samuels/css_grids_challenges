@@ -1,0 +1,51 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.nav{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.img_myself {
+   border-radius: 50%;
+   border: 5px solid white;
+}
+.name {
+  color: white;
+}
+.artwork {
+    text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: grey;
+}
+.images {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.img1 {
+  padding: 50px;
+}
+.images2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.group_name {
+  font-size: 20px;
+}
+.group_links {
+  font-size: 20px;
+}
+.my_profile {
+  font-size: 20px;
+}
